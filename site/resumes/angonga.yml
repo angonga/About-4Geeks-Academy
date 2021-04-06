@@ -1,0 +1,149 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Andrea
+    last_name: Gonzalez
+    
+    # Define yourself in 4-5 words
+    motto: Passionate, Positive, Enthusiastic and Resilient.
+    
+    # focus
+    focus: Data Science
+    
+    # You have 1 paragraph to make a great impression, summarize your career. LATER
+    summary: |
+      By leading an interdisciplinary team, I have learned the necessary skills to resolve conflicts, negotiate, motivate, and assertively communicate the business needs. I am interested in increasing my technical skills as a front-end and back-end developer and database management.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://i.pinimg.com/originals/66/82/93/6682931a0797e7a2f5e257eef835370b.png
+
+    # Contact Information
+    email: andre.gari.2991@gmail.com
+    phone: +506 8877-7887 
+    website:  #optional
+    linkedin:  www.linkedin.com/in/andrea-gonzález-garita
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: angonga
+    
+    twitter:  #optional
+    stack-overflow: #optional
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Fluent
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobies
+    interests:
+      - item: Basketball
+
+      - item: Hiking
+
+      - item: Dancing
+
+# Your previous education
+education:
+    - degree: Full-Stack Development Program
+      university: 4Geeks Academy
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2021 - Present
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+          - Bullet point
+          - Bullet point
+    - degree: Associate Degree in Data Analysis
+      university: 
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2018 - 2019
+      details: Technological Institute of Costa Rica 
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+          - Bullet point
+          - Bullet point
+    - degree: Bachelor Degree in Industrial Engineering
+      university: University of Costa Rica
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2009 - 2015
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+          - Bullet point
+          - Bullet point      
+# Your previous job experiences or voluntier
+experiences:
+    - role: Data Operations Manager
+      time: 2020 - Present
+      company: Neustar. Heredia, Costa Rica 
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        -	My team is responsible to support the identity resolution platform, through constant data flow monitoring between different servers and technologies such as Spark, Hadoop Clusters, AWS, GCP, and more; which directly contributes to $360M of Neustar’s revenue.
+        -	My team ensures the correct data ingestion into the identity resolution platform to be processed through comparison and clustering algorithms execution. We also provided support to multidisciplinary teams to ensure data operations processes efficiency working closely with data owners, data acquisition team, data quality team, data governance team, engineering team, etc.
+
+    - role: Data Analysis Supervisor
+      time: 2017 - 2020
+      company: Neustar. Heredia, Costa Rica 
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        -	My team was responsible for accepting or denying machine learning tools production releases, intending to automate data capture processes; resulting in more than $1.5M savings throughout 2018 and 2019.
+        -	My team was responsible for reducing the reprocessing rate, starting at more than 10% of the monthly production, and was reduced to 0% six months later. 
+        -	My team worked on the incorporation of 3 new processes in addition to the 4 processes that were previously established for the call center business line, achieving annual contracts of approximately $2M of profits, without having extra investments.
+        -	I have led the implementation and monitoring of different KPIs, including the sigma level metric, which started at 5.2 in 2017, and was reduced to 3.0 through six sigma projects.
+
+    - role: Operational Risk Analyst
+      time: 2015 - 2017
+      company: Improsa Financial Group. San Jose, Costa Rica 
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        -	I led the Operational Risk Software implementation, starting with the selection of vendors and the evaluation of their technical requirements. In addition to performing a cost-benefit analysis for each vendor. Later, I led the project implementation planning and participated in the software modules training, which was done to comply with the operational risk management regulation (Sugef Agreement 18-16).
+        -	I mapped and built the risk assessment matrix of more than 200 processes for all the Bank’s business lines and as result, I optimized the business continuity processes through the implementation of new indicators, such as real recovery time and expected recovery time. 
+
+skills:
+    toolset:
+      - name: Python & R
+        level: 70%
+
+      - name: Javascript & React
+        level: 90%
+
+      - name: HTML5 & CSS
+        level: 85%
+
+      - name: SQL
+        level: 90%
+
+      - name: Power BI & Tableau
+        level: 75%
+
+      - name: Microsoft Office
+        level: 90%
